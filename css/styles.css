@@ -1,0 +1,169 @@
+body {
+    font-family: "Montserrat";
+    text-align: center;
+}
+
+/* h1, h2, h3, h4, h5, h6 {
+    font-family: "Montserrat-Bold";
+} */
+
+h1 {
+    font-size: 5.625rem;
+    margin: 50px auto 0 auto;
+    font-family: 'Times New Roman', Times, serif, cursive;
+    color: #66BFBF;
+    line-height: 2;
+}
+
+h2 {
+    font-family: 'Montserrat-Bold', sans-serif;
+    font-size: 2.5rem;
+    color: #66BFBF;
+    padding-top: 20px;
+}
+
+h3 {
+    color: #11999E;
+    font-family: 'Montserrat', sans-serif;
+  }
+
+#title {
+    background-color: black;
+    color: #fff;
+  }
+
+.ameRoll-1 {
+    height: 150px;
+    width: 200px;
+    float: left;
+    margin-left: 30px;
+    transform: scaleX(-1);
+}
+
+.ameRoll-2 {
+    height: 150px;
+    width: 200px;
+    float: right;
+    margin-left: 30px;
+}
+
+
+.bottomAme {
+    height: 200px;
+    width: 200px;
+    transform: scaleX(-1);
+    position: absolute;
+    left: 300px;
+    top: 50px;
+}
+
+.bottom-container {
+    background-color: #66BFBF;
+    padding: 50px 0 20px;
+}
+
+.contact-me {
+    text-align: center;
+}
+
+.copyright {
+    color: white;
+    font-size: 0.75rem;
+    padding: 20px 0;
+  }
+
+.h2-skill {
+    padding-bottom: 20px;
+}
+
+.holoEN {
+    height: 200px;
+    transform: scaleX(-1);
+    margin: 20px;
+}
+
+.icon {
+    color: #0033cc;
+    margin-bottom: 1rem;
+}
+
+.intro {
+    font-family: 'Noto Sans', sans-serif;
+    width: 30%;
+    margin: auto;
+}
+
+.g {
+    height: 50px;
+    width: 50px;
+}
+
+.middle-container {
+    padding-top: 20px;
+}
+
+.topAme {
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    right: 300px;
+    top: 50px;
+}
+
+.top-container {
+    background-color: #E4F9F5;
+    position: relative;
+    padding-top: 100px;
+}
+
+.pro {
+    text-decoration: underline;
+}
+
+.profile {
+    padding-bottom: 20px;
+}
+
+.project-row {
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+}
+
+.penguin {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+}
+
+.my-skills {
+    background-color: #E4F9F5;
+}
+
+.skill-level {
+    padding-bottom: 40px;
+}
+
+.shitpost {
+    color: #66BFBF;
+    font-size: x-small;
+}
+
+/* Footer Section */
+
+
+.social-icon {
+    margin: 20px 10px;
+  }
+  
+  @media (max-width: 1028px) {
+  
+    #title {
+      text-align: center;
+    }
+  
+    .title-image {
+      position: static;
+      transform: rotate(0);
+    }
+  }
